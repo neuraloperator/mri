@@ -6,15 +6,15 @@
 > [**A Unified Model for Compressed Sensing MRI Across Undersampling Patterns**](https://arxiv.org/abs/2410.16290)  
 > Armeet Singh Jatyani, Jiayun Wang, Aditi Chandrashekar, Zihui Wu, Miguel Liu-Schiaffini, Bahareh Tolooshams, Anima Anandkumar  
 > *Paper at [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)*
-> 
-![Intro Fig](https://github.com/user-attachments/assets/95b88f5e-c2a2-4adb-8945-88436b963ae8)
+
+![intro](https://github.com/user-attachments/assets/79aee2fd-0956-4a05-b6c8-2037618e47b1)
 
 > _**(a) Unified Model:** NO works across various undersampling patterns, unlike CNNs (e.g., [E2E-VarNet](#)) that need separate models for each._ \
 > _**(b) Consistent Performance:** NO consistently outperforms CNNs, especially for 2× acceleration with a single unrolled cascade._ \
 > _**(c) Resolution-Agnostic:** Maintains fixed kernel size regardless of image resolution, reducing aliasing risks._ \
 > _**(d) Zero-Shot Super-Resolution:** Outperforms CNNs in reconstructing high-res MRIs without retraining._
 
-![Super Fig](https://github.com/user-attachments/assets/0e1dab7a-c5ab-440d-aad3-989d2ced525a)
+![super](https://github.com/user-attachments/assets/3675a80e-c05f-4d41-9fdf-531de0576751)
 
 > _**(a) Zero-Shot Extended FOV:** On 4x Gaussian undersampling, NO achieves higher PSNR and fewer artifacts than E2E-VN, despite both models being trained only on 160 x 160 FOV._ \
 > _**(b) Zero-Shot Super-Resolution in Image Space:** For 2x radial with 640 x 640 input via bilinear upsampling, NO preserves quality while E2E-VN introduces artifacts._
@@ -119,4 +119,4 @@ If you found our work helpful or used any of our models (UDNO), please cite the 
 }
 ```
 
-[![paper_preview_2x4](https://github.com/user-attachments/assets/95dd93f0-a6dd-4366-b9f8-e020b3382fbb)](https://arxiv.org/abs/2410.16290)
+![paper_preview](https://github.com/user-attachments/assets/7e6adaa5-a5fa-4b68-bd8c-5279f6f643d7)
