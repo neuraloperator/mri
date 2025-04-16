@@ -1,0 +1,47 @@
+[project]
+name = "nomri"
+version = "1.0.0"
+description = "nomri - CVPR 2025"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "lightning-utilities==0.11.7",
+    "lightning==2.4.0",
+    "tabulate>=0.9.0",
+    "torch==2.4.1",
+    "torchmetrics==1.4.1",
+    "torchvision==0.19.1",
+    "wandb==0.17.9",
+    "pytest>=8.3.5",
+    "pandas>=2.2.3",
+    "numpy<2",
+    "matplotlib>=3.9.4",
+    "sigpy>=0.1.27",
+    "h5py>=3.13.0",
+    "lmdb>=1.6.2",
+    "runstats>=2.0.0",
+    "scikit-image>=0.24.0",
+    "fastmri",
+    "models",
+    "torch_harmonics",
+    "pdbpp>=0.10.3",
+    "huggingface-hub>=0.30.1",
+]
+
+[tool.pyright]
+extraPaths = ["fastmri", "models", "torch_harmonics"]
+typeCheckingMode = "basic"
+
+[tool.uv.sources]
+fastmri = { workspace = true }
+models = { workspace = true }
+torch_harmonics = { path = "torch_harmonics" }
+
+[tool.uv.workspace]
+members = ["models", "fastmri", "torch_harmonics"]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.28.3",
+    "ruff>=0.11.2",
+]
