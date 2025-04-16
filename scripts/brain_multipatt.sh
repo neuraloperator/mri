@@ -2,7 +2,7 @@
 
 # export CUDA_VISIBLE_DEVICES=0,1,2,3
 export WANDB_MODE=disabled
-export WANDB_API_KEY=834807c3ce19310795bf38319e568644792946b0
+export WANDB_API_KEY=***
 export WANDB_DIR=/tmp/wandb
 export WANDB_CACHE_DIR=/tmp/wandb_cache
 
