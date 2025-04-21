@@ -58,7 +58,7 @@ Then you can run any script. For example:
 ./scripts/knee_multipatt.sh
 ```
 
-By default the scripts will print results to stdout. If you want to visualize results in 
+By default weights & biases (WANDB) is disabled, so scripts will print results to stdout. If you want to visualize results in 
 weights and biases, add your WANDB api key at the top of the script. We log image predictions
 as well as PSNR, NMSE, SSIM metrics for each epoch.
 ```bash
