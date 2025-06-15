@@ -7,6 +7,8 @@
 > Armeet Singh Jatyani, Jiayun Wang, Aditi Chandrashekar, Zihui Wu, Miguel Liu-Schiaffini, Bahareh Tolooshams, Anima Anandkumar  
 > *Paper at [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025/AcceptedPapers)*
 
+[![hugging face](https://github.com/user-attachments/assets/b483ef88-0646-46c0-9dce-941c0fc31fbe)](https://huggingface.co/spaces/armeet/nomri)
+
 ![intro](https://github.com/user-attachments/assets/79aee2fd-0956-4a05-b6c8-2037618e47b1)
 
 > _**(a) Unified Model:** NO works across various undersampling patterns, unlike CNNs (e.g., [E2E-VarNet](#)) that need separate models for each._ \
